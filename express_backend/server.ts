@@ -1,11 +1,11 @@
 import express, { Request, Response } from 'express';
-import { parseRelAlgExpression } from './converterSQL/parser.js';
-import { RelAlgExpression } from './converterSQL/types.js';
-import { translateToSQL } from './converterSQL/translator.js';
-import { executeQuery } from './config/db.js';
-import databaseRoutes from './modules/databases/databaseRoutes.js';
-import taskRoutes from './modules/tasks/taskRoutes.js';
-import tableRoutes from './modules/tables/tableRoutes.js';
+import { parseRelAlgExpression } from './app/converterSQL/parser.js';
+import { RelAlgExpression } from './app/converterSQL/types.js';
+import { translateToSQL } from './app/converterSQL/translator.js';
+import { executeQuery } from './app/config/db.js';
+import databaseRoutes from './app/routes/databaseRoutes.js';
+import taskRoutes from './app/routes/taskRoutes.js';
+import tableRoutes from './app/routes/tableRoutes.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';

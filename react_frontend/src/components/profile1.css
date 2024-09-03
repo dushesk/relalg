@@ -1,0 +1,123 @@
+.profile1-container {
+  position: relative;
+  align-items: center;
+}
+.profile1-container1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.profile1-text {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.profile1-icon {
+  width: 24px;
+  height: 24px;
+  margin: var(--dl-space-space-unit);
+}
+.profile1-user-info {
+  display: flex;
+  min-width: var(--dl-size-size-xxlarge);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.profile1-lastname {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.profile1-text01 {
+  font-size: 16px;
+  font-family: "Nunito";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-firstname {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.profile1-text05 {
+  font-size: 16px;
+  font-family: "Nunito";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text06 {
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.profile1-middlename {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.profile1-text07 {
+  font-size: 16px;
+  font-family: "Nunito";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text08 {
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.profile1-mail {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.profile1-text09 {
+  font-size: 16px;
+  font-family: "Nunito";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text10 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.profile1-role {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.profile1-text11 {
+  font-size: 16px;
+  font-family: "Nunito";
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.profile1-text12 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.profile1-navlink {
+  text-decoration: none;
+}

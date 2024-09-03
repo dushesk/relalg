@@ -1,0 +1,101 @@
+.about1-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.about1-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.about1-content {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.about1-li {
+  align-items: flex-start;
+}
+.about1-heading1 {
+  align-self: flex-start;
+}
+.about1-content1 {
+  fill: var(--dl-color-theme-accent2);
+  align-self: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.about1-ul1 {
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.about1-content2 , .about1-content3, .about1-content6, p {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+}
+.about1-content1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.about1-li04 {
+  align-items: flex-start;
+}
+.about1-heading7 {
+  align-self: flex-start;
+}
+.about1-content7 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.about1-ul3 {
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+}
+.about1-content9 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+}
+.about1-content10 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+}
+.about1-content11 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+}
+.about1-content111 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+}
+.about1-content12 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+}
+.about1-content121 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+}
+.about1-content122 {
+  fill: var(--dl-color-theme-accent2);
+  color: var(--dl-color-theme-accent2);
+}
+@media(max-width: 767px) {
+  .about1-ul1 {
+    padding-left: var(--dl-space-space-threeunits);
+  }
+  .about1-ul3 {
+    padding-left: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 479px) {
+  .about1-ul1 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+  }
+  .about1-ul3 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+  }
+}

@@ -1,0 +1,51 @@
+.task-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.task-taskinput {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.task-container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.task-text {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.task-text1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.task-text2 {
+  z-index: 100;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  animation-name: none;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.task-root-class-name {
+  margin: var(--dl-space-space-unit);
+}
+.task-root-class-name4 {
+  margin: var(--dl-space-space-unit);
+}
+.task-root-class-name1 {
+  margin: var(--dl-space-space-unit);
+}
