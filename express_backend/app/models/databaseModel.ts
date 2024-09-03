@@ -1,4 +1,4 @@
-import { executeQuery } from '../../config/db.js';
+import { executeQuery } from '../config/db.js';
 
 interface Database {
   id: number;

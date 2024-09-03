@@ -1,4 +1,4 @@
-import { getTableData } from './tableModel.js';
+import { getTableData } from '../models/tableModel';
 
 export const fetchTableData = async (req: any, res: any) => {
   const { schemaName, tableName } = req.params;

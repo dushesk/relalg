@@ -1,5 +1,5 @@
-import { executeQuery, executeTransaction } from '../../config/db.js';
-import { Database, DBTable } from '../databases/databaseModel.js';
+import { executeQuery, executeTransaction } from '../config/db.js';
+import { Database, DBTable } from './databaseModel.js';
 
 interface Task {
   id: number;

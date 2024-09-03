@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { DatabaseManager } from './databaseModel.js';
+import { DatabaseManager } from '../models/databaseModel';
 
 export const getAllDatabases = async (req: Request, res: Response): Promise<void> => {
   try {

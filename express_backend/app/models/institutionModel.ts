@@ -1,4 +1,4 @@
-import { executeQuery, executeTransaction } from '../../config/db.js';
+import { executeQuery, executeTransaction } from '../config/db.js';
 
 interface Institution {
   id: number;

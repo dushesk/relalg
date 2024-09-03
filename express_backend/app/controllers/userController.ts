@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { UserModel, User } from './userModel.js';
+import { UserModel, User } from '../models/userModel';
 
 class UserController {
   static async getAll(req: Request, res: Response) {

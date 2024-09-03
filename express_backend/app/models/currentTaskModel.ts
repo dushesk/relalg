@@ -1,4 +1,4 @@
-import { executeQuery } from '../../config/db';
+import { executeQuery } from '../config/db';
 
 interface CurrentTask {
   id: number;

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { fetchTableData } from './tableController.js';
+import { fetchTableData } from '../controllers/tableController.js';
 
 const router = Router();
 
