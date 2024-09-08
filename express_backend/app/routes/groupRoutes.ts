@@ -3,10 +3,10 @@ import GroupController from '../controllers/groupController.js';
 
 const router = express.Router();
 
-router.get('/', GroupController.getAll);
-router.get('/:id', GroupController.getById);
-router.post('/', GroupController.create);
-router.put('/:id', GroupController.update);
-router.delete('/:id', GroupController.delete);
+router.get('/groups', GroupController.getAll);
+router.get('/group/:id', GroupController.getById);
+router.post('/group', GroupController.create);
+//router.put('/group/:id', GroupController.update);
+router.delete('/group/:id', GroupController.delete);
 
 export default router;
