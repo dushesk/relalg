@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { TaskManager } from '../models/taskModel';
+import { TaskManager } from '../models/taskModel.js';
 
 export const getAllTasks = async (req: Request, res: Response): Promise<void> => {
   try {

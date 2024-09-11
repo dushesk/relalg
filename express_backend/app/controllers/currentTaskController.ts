@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { CurrentTaskModel } from '../models/currentTaskModel';
+import { CurrentTaskModel } from '../models/currentTaskModel.js';
 
 export async function getAllCurrentTasks(req: Request, res: Response): Promise<void> {
   try {

@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { GroupModel, Group } from '../models/groupModel';
+import { GroupModel, Group } from '../models/groupModel.js';
 
 class GroupController {
   static async getAll(req: Request, res: Response) {

@@ -1,10 +1,10 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  Redirect,
+  Routes,
+  Navigate,
 } from 'react-router-dom'
 
 import './style.css'
@@ -21,20 +21,22 @@ import NotFound from './views/not-found'
 const App = () => {
   return (
     <Router>
-      <Switch>
-        <Route component={Tests} exact path="/tests" />
-        <Route component={Lessons} exact path="/lessons" />
-        <Route component={SignIn} exact path="/sign-in" />
-        <Route component={Exercises} exact path="/exercises" />
-        <Route component={Home} exact path="/" />
-        <Route component={About} exact path="/about" />
-        <Route component={SignUp} exact path="/sign-up" />
-        <Route component={Exercise} exact path="/exercise" />
-        <Route component={NotFound} path="**" />
-        <Redirect to="**" />
-      </Switch>
+      <Routes>
+        <Route path="/tests" element={<Tests />} />
+        <Route path="/lessons" element={<Lessons />} />
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/exercises" element={<Exercises />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/exercise" element={<Exercise />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<Navigate to="*" />} />
+      </Routes>
     </Router>
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+// Используем ReactDOM.createRoot для версии React 18 и выше
+const root = ReactDOM.createRoot(document.getElementById('app'));
+root.render(<App />);

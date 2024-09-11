@@ -1,4 +1,4 @@
-import { API_URL } from "api.js";
+import { API_URL } from "./api.js";
 
 export const getAllTasks = async () => {
   const response = await fetch(`${API_URL}/tasks`);

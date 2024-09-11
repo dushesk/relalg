@@ -17,7 +17,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
 app.use(express.static('public'));
 app.use(express.json());
@@ -31,7 +31,7 @@ app.use(express.static(path.join(__dirname, '../client/build')));
 
 // Обработка всех маршрутов, кроме API, для React Router
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+  res.sendFile(path.join(__dirname, '../react_frontend/public', 'index.html'));
 });
 
 app.listen(PORT, () => {

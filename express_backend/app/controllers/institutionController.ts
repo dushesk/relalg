@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { InstitutionModel, Institution } from '../models/institutionModel';
+import { InstitutionModel, Institution } from '../models/institutionModel.js';
 
 class InstitutionController {
   static async getAll(req: Request, res: Response) {
