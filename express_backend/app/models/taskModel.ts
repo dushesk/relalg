@@ -31,6 +31,7 @@ class TaskManager {
       WHERE task_id = $1
     `;
     const results = await executeQuery(query, [taskId]);
+    console.log(results);
     const tasks = this.mapTasks(results);
     return tasks.length ? tasks[0] : null;
   }

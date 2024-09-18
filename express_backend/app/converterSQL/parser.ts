@@ -61,7 +61,3 @@ export function parseRelAlgExpression(expression: string): RelAlgExpression {
       throw new Error('Не удалось распознать выражение: ' + expression);
     }
   }
-
-
-
-///^[a-zA-Z_]\w*$/
